@@ -15,7 +15,7 @@ body {
     max-width: 1440px;
 }
 
-.repsonsive-img {
+.respsonsive-img {
     width: 100%;
     height: auto;
 }
@@ -50,7 +50,7 @@ ul {
     padding: 0;
 }
 
-a { 
+a {
     text-decoration: none;
     color: white;
 }
@@ -126,6 +126,8 @@ a {
     border: 1px solid;
     border-radius: 2px;
     margin-bottom: 238px;
+    border: none;
+    padding: 0;
 }
 
 .balancing-container-content-head {
@@ -136,11 +138,10 @@ a {
 }
 
 .balancing-container-content {
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .balancing-container-content-crypto {
@@ -178,7 +179,7 @@ a {
     max-width: 1056px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .about-gravity-team-head {
@@ -206,7 +207,7 @@ a {
     align-items: center;
     justify-items: center;
     text-align: center;
-    margin-bottom: 128px; 
+    margin-bottom: 128px;
 }
 
 #grid-table {
@@ -228,7 +229,7 @@ a {
     max-width: 162px;
     max-height: 55px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .size-text-and-box div {
@@ -265,12 +266,12 @@ a {
     grid-area: 1 / 2 / 2 / 3;
     border-right: 2px solid rgb(76, 200, 241);
     border-bottom: 2px solid rgb(76, 200, 241);
-} 
+}
 .bottom-border-3 {
     grid-area: 1 / 3 / 2 / 4;
     border-right: 2px solid rgb(76, 200, 241);
     border-bottom: 2px solid rgb(76, 200, 241);
-} 
+}
 .bottom-border-4 {
     grid-area: 1 / 4 / 2 / 5;
     border-bottom: 2px solid rgb(76, 200, 241);
@@ -278,19 +279,484 @@ a {
 .bottom-border-5 {
     grid-area: 2 / 1 / 2 / 2;
     border-right: 2px solid rgb(76, 200, 241);
-    
+
 }
 .bottom-border-6 {
     grid-area: 2 / 2 / 3 / 3;
     border-right: 2px solid rgb(76, 200, 241);
-    
+
 }
 .bottom-border-7 {
     grid-area: 2 / 3 / 3 / 4;
     border-right: 2px solid rgb(76, 200, 241);
-    
+
 }
 .bottom-border-8 {
     grid-area: 2 / 4 / 3 / 5;
-    
+
+}
+
+/* crypto market making */
+.crypto-market-making-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.crypto-market-making-container-content {
+    max-width: 1056px;
+    height: 680px;
+}
+.cripto-market-making-container-content-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    /* gap: 25px; */
+    height: 192px;
+    margin-bottom: 122px;
+}
+.cripto-market-making-container-content-head span {
+    height: 78px;
+    width: 597px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.cripto-market-making-container-content-head p {
+    margin: 0;
+    height: 90px;
+    max-width: 580px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.3;
+    color: #E5E5E5;
+}
+
+.cripto-market-making-container-content-head {
+    color: white;
+}
+.cripto-market-making-container-content-projects {
+    width: 1056px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#market-making-project {
+    width: 423px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#market-making-project span {
+    width: 390px;
+    height: 70px;
+    font-size: 36px;
+    font-weight: 400;
+    /* line-height: 1.4; */
+}
+#market-making-project div:first {
+    width: 392px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    /* line-height: 1.3; */
+}
+#market-making-project p {
+    margin: 0;
+    width: 380px;
+    height: 115px;
+    font-size: 20px;
+    color: #E5E5E5;
+    font-weight: 200;
+    /* line-height: 1.3; */
+}
+.repsonsive-img {
+    max-width: 100%;
+    height: auto;
+}
+#btn-learn-more-with-img {
+    display: flex;
+    align-items: center;
+    height: 31px;
+    width: 126px;
+}
+#btn-learn-more-with-img img {
+    width: 16px;
+    height: 16px;
+}
+#btn-learn-more-with-img button {
+    color: white;
+    background-color: black;
+    border: none;
+    height: 31px;
+    width: 100px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 100;
+    background: linear-gradient(to right, #665DCD 0%, #5FA4E6 45%, #D2AB67 100%) left bottom #050101 no-repeat;
+    background-size: 100% 2px;
+}
+
+/* market making for crypto exchange */
+
+.crypto-exchange-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 224px;
+}
+.crypto-exchange-container-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1056px;
+    height: 387px;
+}
+.crypto-exchange-container-content-info-head {
+    color: white;
+}
+.crypto-exchange-container-content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.crypto-exchange-container-content-info-head {
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 400px;
+    height: 90px;
+    line-height: 1.2;
+}
+.crypto-exchange-container-content-info div:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 393px;
+    height: 53px;
+    line-height: 1.2;
+}
+.crypto-exchange-container-content-info p {
+    font-size: 19px;
+    font-weight: 400;
+    width: 422px;
+    height: 115px;
+    line-height: 1.3;
+    color: #E5E5E5;
+}
+
+/* our partners and frind */
+
+.our-partners-and-frinds-container-content {
+    width: 1056px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url("/src/public/imgs/infiniti\ sign.png");
+    background-image: url("/src/public/imgs/mena.png");
+    background-image: url("/src/public/imgs/3\ pieces\ image.png");
+    background-position: right 100% top 100%;
+    background-repeat: no-repeat; */
+
+    background-image: url("/src/public/imgs/join gravity blue.png");
+    background-repeat: no-repeat;
+    background-position: top 40% right 150%;
+    margin-bottom: 224px;
+}
+
+.our-partners-and-frinds-container {
+    display: flex;
+    justify-content: center;
+
+}
+.img-container {
+    max-width: 408px;
+    height: 696px;
+}
+
+.img-container img {
+    width: 192px;
+    height: 192px;
+    animation: scroll 90s linear infinite;
+}
+.slide-track {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+}
+.slider {
+    margin-top: 70px;
+    background-color: black;
+    padding: 15px 5px;
+    width: 200px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+    animation: slide 10s infinite;
+}
+.overlay {
+    color: #fff;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .2s ease-in-out;
+ }
+.sliders {
+    display: flex;
+    align-self: flex-start;
+
+    /* width: 400px;
+    height: 200px; */
+}
+@keyframes scroll {
+    0% {transform: translateY(0);}
+    100%{transform: translateY(-1000%);}
+
+}
+
+.our-partners-and-frinds-container-content-head {
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    max-width: 506px;
+    height: 176px;
+}
+.icons-our-partners {
+    display: flex;
+    align-self: self-start;
+}
+.icons-our-partners div:first-child {
+
+}
+.icons-our-partners div:nth-child(2) {
+
+}
+.icons-our-partners div:nth-child(3) {
+
+}
+
+/* we are in good company */
+
+.we-are-good-company-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.we-are-good-company-container-content {
+    width: 1056px;
+    height: 890px;
+    margin-bottom: 301px;
+}
+.we-are-good-company-container-content div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.we-are-good-company-container-content-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.we-are-good-company-container-content-head span {
+    font-size: 57px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.we-are-good-company-container-content-head p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 603px;
+    height: 56px;
+}
+.we-are-good-company-container-content-body p {
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 1.4;
+    width: 678px;
+    height: 343px;
+    display: flex;
+    align-items: center;
+}
+#first-div {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    max-width: 202px;
+    height: 25px;
+    margin-bottom: 38px;
+}
+#two-logos {
+    max-width: 682px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-bottom: 140px;
+}
+.we-are-good-company-container-content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* join gravity team */
+
+.join-gravity-team-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+.join-gravity-team-container-content {
+    color: white;
+    width: 1056px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("/src/public/imgs/join\ gravity\ blue.png");
+    background-repeat: no-repeat;
+}
+.join-gravity-team-container-content-dody {
+    color: #E5E5E5;
+    /* background-image: url("/src/public/imgs/join\ gravity\ team.png");
+    background-repeat: no-repeat; */
+}
+.join-gravity-team-container-content-head {
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 1.4;
+    max-width: 349px;
+    height: 150px;
+}
+.join-gravity-team-container-content-dody p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 516px;
+}
+#btn-join-gravity-team {
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 290px;
+    height: 31px;
+    background: linear-gradient(to right, #665DCD 0%, #5FA4E6 45%, #D2AB67 100%) left bottom #050101 no-repeat;
+    background-size: 95% 2px;
+    padding: 0;
+    margin: 0;
+}
+.get-in-touch-btn-2 {
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to bottom right, #665DCD 0%, #5FA4E6 45%, #D2AB67 100%);
+    width: 191px;
+    height: 58px;
+    border: 1px solid;
+    border-radius: 2px;
+    border: none;
+    padding: 0;
+}
+
+/* contact us */
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/public/imgs/contact\ us\ purple.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.contact-us-container-content {
+    color: white;
+    width: 1056px;
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("/src/public/imgs/join\ gravity\ blue.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.contact-us-container-content-head {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.8;
+    background-image: url("/src/public/imgs/join\ gravity\ team.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.contact-us-container-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 623px;
+    height: 120px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-us-container-content-inner {
+    width: 1056;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer page */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 1440px;
+    height: 366px;
+}
+.footer-container-contenr-inner {
+    width: 1056px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-container-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 116px;
+    height: 100px;
+}
+.footer-container-content-right {
+    width: 180px;
+    height: 127px;
+}
+.footer-container-content-right img {
+    width: 180px;
+    height: 42px;
+}
+.footer-container-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container-content-footer {
+    max-width: 1056px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
 }
